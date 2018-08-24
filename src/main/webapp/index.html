@@ -11,6 +11,10 @@
     <meta name="theme-color" content="#000000">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="manifest" href="manifest.webapp" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css' rel='stylesheet' />
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
     <!-- jhipster-needle-add-resources-to-root - JHipster will add new resources here -->
 </head>
 <body>
@@ -22,8 +26,6 @@
         <h1>You must enable javascript to view this page.</h1>
     </noscript>
     
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZcWCDJ-l5yCMyOC2wc4w4p1agG9ePVoA"></script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <!-- uncomment this for adding service worker
         <script>
             if ('serviceWorker' in navigator) {

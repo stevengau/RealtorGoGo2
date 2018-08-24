@@ -90,6 +90,11 @@
     </dependencyManagement>
 
     <dependencies>
+    	<dependency>
+			 <groupId>de.grundid.opendatalab</groupId>
+			 <artifactId>geojson-jackson</artifactId>
+			 <version>1.8</version>
+		</dependency>
         <dependency>
             <groupId>io.github.jhipster</groupId>
             <artifactId>jhipster-framework</artifactId>
